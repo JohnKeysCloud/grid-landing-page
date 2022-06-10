@@ -1,0 +1,77 @@
+/* 
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ my name is gRoot                                                            │
+  └─────────────────────────────────────────────────────────────────────────────┘
+ */
+
+@font-face {
+  font-family: 'getSchwifty';
+  src: url(../fonts/getSchwifty.woff2);
+}
+
+@font-face {
+  font-family: 'gosha';
+  src: url(../fonts/GoshaSansRegular.otf);
+}
+
+@keyframes rgb-pulse-h1 {
+  from {
+    filter: drop-shadow(0px 0px 3px chartreuse);
+  }
+  to {
+    filter: drop-shadow(0px 0px 5px rgb(1, 150, 1));
+  }
+}
+
+@keyframes rgb-pulse {
+  from {
+    filter: drop-shadow(0px 0px 2px red);
+  }
+
+  20% {
+    filter: drop-shadow(0px 0px 5px green);
+  }
+
+  40% {
+    filter: drop-shadow(0px 0px 2px pink);
+  }
+
+  60% {
+    filter: drop-shadow(0px 0px 5px blue);
+  }
+
+  to {
+    filter: drop-shadow(0px 0px 2px orange);
+  }
+}
+
+@keyframes border-left {
+  from {
+    border-left: 1px solid chartreuse;
+  }
+  to {
+    border-left: 3px solid chartreuse;
+  } 
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  font-family: 'Gosha', Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  margin: 0;
+  /* min-height: 100vh; */
+}
+
+
+

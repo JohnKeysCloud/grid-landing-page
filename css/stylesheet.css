@@ -29,7 +29,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 7fr;
+  grid-template-rows: max-content 7fr;
 }
 
 h1 {

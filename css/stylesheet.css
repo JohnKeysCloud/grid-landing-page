@@ -60,7 +60,7 @@ a {
   align-items: center;
   gap: 10px;
 
-  padding-right: 15px;
+  padding: 15px 0px;
 }
 
 .full-logo > img {
@@ -70,12 +70,14 @@ a {
   justify-self:end;
 }
 
+.full-logo >h1 {
+  margin:0;
+}
+
 .full-logo > h1 a {
   color: white;
   text-decoration: none;
   text-shadow: 0 0 10px white;
-
-  justify-self: start;
 }
 
 .sidebar-sub .list {
@@ -217,7 +219,7 @@ a {
 .ts-btm-right a {
   background-color: gray;
   border-radius: 18px;
-  box-shadow: 0 0 2px black, inset 0 0 3px white;
+  box-shadow: 0 0 10px white, inset 0 0 3px white;
   color: white;
   font-size: 1.5rem;
   padding: 5px 24px;

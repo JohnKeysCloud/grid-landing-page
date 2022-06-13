@@ -45,10 +45,6 @@ p {
   font-size: 1.5rem;
 }
 
-a {
-  color: silver;
-}
-
 .sidebar-main {
   grid-column: 1;
   grid-row: 1 / 3 ;
@@ -79,6 +75,9 @@ a {
   text-decoration: none;
   text-shadow: 0 0 10px white;
 }
+.full-logo>h1 a:hover {
+  transform: scale(1.3);
+}
 
 .sidebar-sub .list {
   display: grid;
@@ -105,6 +104,10 @@ a {
   color: white;
   text-decoration: none;
   text-shadow: 0 0 10px;
+}
+
+.sidebar-sub .list a:hover {
+  color: silver;
 }
 
 .list-top {
@@ -375,4 +378,22 @@ a {
 
 .sb-avatar {
   height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .sub-sidebar {
+    grid-column: 1;
+    grid-row: 4;
+
+    padding-left: 20px;
+  }
+
+  .announcement-label {
+    margin-left: 20px;
+  }
+  
 }

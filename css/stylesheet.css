@@ -294,7 +294,12 @@ p {
   box-shadow: 0 0 13px white,
     inset 0 0 5px white;
   transform: scale(1.03);
+}
 
+.ts-btm-right a:active {
+  box-shadow: 0 0 8px white,
+    inset 0 0 3px white;
+  transform: scale(0.99);
 }
 
 .main {

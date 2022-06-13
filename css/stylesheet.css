@@ -352,7 +352,7 @@ p {
 
 .project-card {
   background-color: white;
-  border-left: 8px solid silver;
+  border-left: 2px solid chartreuse;
   border-radius: 18px;
   height: 250px;
   padding: 12px;
